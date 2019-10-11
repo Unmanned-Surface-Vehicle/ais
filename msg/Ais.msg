@@ -1,0 +1,15 @@
+string                mmsi_num
+string                imo_num
+string                call_sign
+float64               length
+float64               beam
+string                type
+geometry_msgs/Point   antenna_location
+sensor_msgs/NavSatFix position
+geometry_msgs/Vector3 course
+float64               draught
+string                cargo_type
+geometry_msgs/Point   destination
+time                  eta
+nav_msgs/Path         route_plan
+string                safety_msg
